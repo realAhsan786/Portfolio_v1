@@ -379,7 +379,9 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: radial-gradient(900px circle at 85% 10%, rgba(147, 51, 234, 0.18), transparent 60%),
+    radial-gradient(650px circle at 15% 85%, rgba(0, 120, 212, 0.22), transparent 55%),
+    linear-gradient(135deg, #f0f6ff 0%, #ece7ff 50%, #e8f6ff 100%);
 	padding-bottom: 5%;
 }
 
