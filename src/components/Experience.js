@@ -21,6 +21,7 @@ class Experience extends Component {
             </Badge>
           );
         });
+
         var tech = technologies.map((technology, i) => {
           return (
             <Badge pill className="experience-badge mr-2 mb-2" key={i}>
@@ -28,16 +29,20 @@ class Experience extends Component {
             </Badge>
           );
         });
+
         return (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={work.years}
             iconStyle={{
-              background: "#AE944F",
+              background: "#512BD4", // Microsoft .NET purple shade
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
+            icon={<i
+                    className="devicon-dotnetcore-plain experience-icon"
+                      style={{ fontSize: "4.5rem", lineHeight: "60px" }}
+                    ></i>} // .NET Core icon
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
@@ -46,13 +51,13 @@ class Experience extends Component {
 
             <h3
               className="vertical-timeline-element-title"
-              style={{ textAlign: "left" }}
+              style={{ textAlign: "left", color: "#512BD4" }}
             >
               {work.title}
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
-              style={{ textAlign: "left" }}
+              style={{ textAlign: "left", color: "#444" }}
             >
               {work.company}
             </h4>
@@ -65,11 +70,9 @@ class Experience extends Component {
     return (
       <section id="resume" className="pb-5">
         <div className="col-md-12 mx-auto">
-          <div className="col-md-12">
-            <h1 className="section-title" style={{ color: "black" }}>
-              <span className="text-black" style={{ textAlign: "center" }}>
-                {sectionName}
-              </span>
+          <div className="col-md-12 text-center">
+            <h1 className="section-title" style={{ color: "#512BD4" }}>
+              <span>{sectionName}</span>
             </h1>
           </div>
         </div>
@@ -78,7 +81,7 @@ class Experience extends Component {
             {work}
             <VerticalTimelineElement
               iconStyle={{
-                background: "#AE944F",
+                background: "#512BD4",
                 color: "#fff",
                 textAlign: "center",
               }}

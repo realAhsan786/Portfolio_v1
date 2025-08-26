@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Ahsan, a Full Stack Developer specializing in Angular, .NET Core, SQL, AWS, and Azure. I love building scalable web applications, designing secure APIs, and deploying cloud-based solutions. This portfolio highlights my journey and projects across front-end, back-end, and cloud technologies. 🚀Thank you 💜",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -81,37 +81,59 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "NETSOL TECHNOLOGIES",
+        "title": "Full Stack Developer",
+        "years": "11.2024 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          ".NET Core/Angular"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "Angular",
+          "AngularJS",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "C#",
+          ".NET",
+          "ASP.NET MVC",
+          "Web API",
+          "WPF",
+          "WCF",
+          "MVVM",
+          "Entity Framework",
+          "ADO.NET",
+          "LINQ Queries",
+          "MS SQL Server",
+          "XAML"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "HazelSoft",
+        "title": "Software Engineer",
+        "years": "06.2022 - 11.2024",
         "mainTech": [
-          "Angular 7/8"
+          ".NET CORE/Angular"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "Angular",
           "JavaScript",
-          "DHTMLX Gantt"
+          "C#",
+          ".NET",
+          "ASP.NET Core 5 MVC",
+          "ASP.NET MVC",
+          "ASP.NET Web Forms",
+          "Web API",
+          "WCF",
+          "WPF",
+          "MVVM",
+          "Entity Framework",
+          "ADO.NET",
+          "ServiceStack ORMLite",
+          "SubSonic",
+          "MS SQL Server",
+          "Oracle PL/SQL",
+          "Oracle SQL Developer",
+          "RabbitMQ",
+          "LINQ Queries",
+          "XAML"
         ]
       }
     ]

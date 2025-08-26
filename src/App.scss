@@ -1,5 +1,5 @@
-@import '../src/scss/themes/theme-dark.scss';
-@import '../src/scss/themes/theme-light.scss';
+//@import '../src/scss/themes/theme-dark.scss';
+//@import '../src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
 html {
@@ -29,23 +29,59 @@ html {
 	width: 150px;
 }
 
+// header {
+// 	position: relative;
+// 	height: 520px;
+// 	min-height: 450px;
+// 	width: 100%;
+// 	background-size: cover;
+// 	-webkit-background-size: cover;
+// 	text-align: center;
+// 	overflow: hidden;
+// 	//background-color: #e9d5a1;
+// 	background: linear-gradient(135deg, #f7e8c3, #d7c3a3);
+// 	-webkit-background-size: cover;
+// 	-moz-background-size: cover;
+// 	-o-background-size: cover;
+// 	background-size: cover;
+// 	padding-top: 150px;
+// 	padding-bottom: 0;
+// }
+
 header {
-	position: relative;
-	height: 520px;
-	min-height: 450px;
-	width: 100%;
-	background-size: cover;
-	-webkit-background-size: cover;
-	text-align: center;
-	overflow: hidden;
-	background-color: #e9d5a1;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	padding-top: 150px;
-	padding-bottom: 0;
+  position: relative;
+  height: 520px;
+  min-height: 450px;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 150px;
+  padding-bottom: 0;
+
+  color: #1c1c28;
+  background:
+    radial-gradient(900px circle at 85% 10%, rgba(147, 51, 234, 0.18), transparent 60%),
+    radial-gradient(650px circle at 15% 85%, rgba(0, 120, 212, 0.22), transparent 55%),
+    linear-gradient(135deg, #f0f6ff 0%, #ece7ff 50%, #e8f6ff 100%);
+  background-size: 200% 200%, 200% 200%, 100% 100%;
+  animation: headerGradientShift 24s ease-in-out infinite;
+
+  h1 {
+    color: #1b143f;
+    text-shadow: 0 1px 6px rgba(0, 120, 212, 0.25);
+  }
 }
+
+.title-styles {
+  color: #312e81; /* indigo-800 */
+}
+
+.header-icon {
+  color: #2b2b52;
+  filter: drop-shadow(0 6px 18px rgba(0, 120, 212, 0.3));
+}
+
+/* reuse the same keyframes + reduced-motion block from Option 1 */
 
 .language-icon {
 	font-size: 50px;
@@ -219,7 +255,9 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background:    radial-gradient(900px circle at 85% 10%, rgba(147, 51, 234, 0.18), transparent 60%),
+    radial-gradient(650px circle at 15% 85%, rgba(0, 120, 212, 0.22), transparent 55%),
+    linear-gradient(135deg, #f0f6ff 0%, #ece7ff 50%, #e8f6ff 100%);
 }
 
 .experience-icon {
@@ -233,7 +271,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: #512BD4 !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -244,8 +282,8 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
-	color: black;
+	background-color: #2C3E50 !important;
+	color: #fff;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

@@ -1,11 +1,11 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Muhammad Ahsan Shafique",
+      "titles": [ "Full Stack Developer", "Senior .Net Core Engineer", "Angular Developer", "React Developer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/realAhsan786",
           "class": "fab fa-github"
         },
         {
@@ -14,7 +14,7 @@
           "class": "fab fa-instagram"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "ahsan.jfif"
     },
     "skills": {
       "icons": [
@@ -44,8 +44,8 @@
           "level": "70"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
+          "name": "React",
+          "class": "devicon-react-original",
           "level": "75"
         },
         {
@@ -59,8 +59,8 @@
           "level": "65"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
+          "name": "Dot Net Core",
+          "class": "devicon-dotnetcore-plain",
           "level": "60"
         }
       ]
