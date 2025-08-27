@@ -11,12 +11,12 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Fintech Application",
+        "startDate": "2025",
+        "description": "An automobile fintech system which is responsible for managing all processes for asset leasing and financing. The whole process includes the asset application, asset contract, contract repayment plan and asset insurance etc. These all steps are taken between the customer and the finance company (Bank).",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/fintech-application/2-2.png",
+          "images/portfolio/fintech-application/1-1.png"
         ],
         "url": "",
         "technologies": [
@@ -25,8 +25,8 @@
             "name": "Angular"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-dotnetcore-plain",
+            "name": ".Net Core"
           },
           {
             "class": "devicon-csharp-plain",
@@ -35,32 +35,12 @@
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Collections",
+        "startDate": "2024",
+        "description": "Collections is a Greece-based debt collecting system for Orange Telecom.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/collection/p1.webp",
+          "images/portfolio/collection/p2.webp"
         ],
         "url": "https://github.com",
         "technologies": [
@@ -69,8 +49,32 @@
             "name": "Angular"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-dotnetcore-plain",
+            "name": ".Net Core"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      },
+      {
+        "title": "DMS",
+        "startDate": "2023",
+        "description": " DMS is a Greece-based project to manage the documents. ",
+        "images": [
+          "images/portfolio/dms/p1.jpg",
+          "images/portfolio/dms/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-dotnetcore-plain",
+            "name": ".Net Core"
           },
           {
             "class": "devicon-csharp-plain",

@@ -29,19 +29,14 @@
           "level": "95"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
           "level": "70"
+        },
+        {
+          "name": "Angular",
+          "class": "devicon-angularjs-plain",
+          "level": "80"
         },
         {
           "name": "React",
@@ -62,7 +57,32 @@
           "name": "Dot Net Core",
           "class": "devicon-dotnetcore-plain",
           "level": "60"
-        }
+        },
+        {
+    "name": "Git",
+    "class": "devicon-git-plain",
+    "level": "70"
+  },
+  {
+    "name": "GitHub",
+    "class": "devicon-github-original",
+    "level": "60"
+  },
+  {
+    "name": "AWS",
+    "class": "devicon-amazonwebservices-plain-wordmark",
+    "level": "65"
+  },
+  {
+    "name": "Azure",
+    "class": "devicon-azure-plain",
+    "level": "60"
+  },
+  {
+    "name": "Docker",
+    "class": "devicon-docker-plain",
+    "level": "70"
+  }
       ]
     }
   }
